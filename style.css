@@ -76,7 +76,10 @@ li {
     list-style-type: none;
     margin: 0 10px;
 }
-
+.text{
+    border: orange 5px solid;
+    
+}
 a,
 .secondary {
     text-decoration: none;
@@ -90,10 +93,14 @@ button {
 
 .randomInfoGroup {
     display: flex;
+    flex-direction: column;
 }
 
 .randomItems {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: green 5px solid;
 }
 
 .randomInfoGroup .randomItems .anItem {
