@@ -10,36 +10,62 @@ body {
     color: #f9faf8;
     font-size: 24px;
     font-weight: extra-bold;
-    border: orange 5px solid;
+    /*border: orange 5px solid;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.main-text{
-    font-size: 48px;
-    color:#f9faf8;
-}
+
 .content {
     color: #f9faf8;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 60px;
 }
-.one {
-    border: tomato 5px solid;
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
 
 }
-.two {
-    border: blue 5px solid;
+
+.main-text p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
+
+.randomInfo {
+    background-color: white;
+}
+
+.randomInfo p {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    /*border: orange 5px solid;*/
+}
+
+.one {
+    /*border: tomato 5px solid;*/
+
+}
+
+.two {
+    /*border: blue 5px solid;*/
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .secondary {
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
     flex-direction: row;
 }
-
-
 
 ul {
     display: flex;
@@ -57,12 +83,55 @@ a,
     color: #e5e7eb;
 }
 
-/* .footer {
-    border: white 5px solid;
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.randomInfoGroup {
+    display: flex;
+}
+
+.randomItems {
+    display: flex;
+}
+
+.randomInfoGroup .randomItems .anItem {
+    border: red 5px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.anItem img {
+    border: #3882f6 5px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.quoteArea {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.Thor {
+    display: flex;
+    font-weight: 800;
+    font-size: 25px;
+    font-style: normal;
+    justify-content: end;
+}
+
+
+
+.footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 16px;
     color: #f9faf8;
-    align-self: flex-end;
-} */
+    align-self: center;
+}
